@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio src="./song.mp3" id="songElement"></audio>
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+
+    <p id="currentPlayingTime">00min : 00s</p>
+    <p id="volumePercentage">100%</p>
+
+    <button id="volumeUpBtn">Volume Up</button>
+    <button id="volumeDownBtn">Volume Down</button>
+
+    Duration Slider
+    <input type="range" min="0" id="durationSlider" value="0">
+    Volume Slider
+    <input type="range" min="0" max="100" id="volumeSlider">
+
+
+    <button id="skipPlusBtn">Skip Plus</button>
+    <button id="skipMinusBtn">skip Minus</button>
+
+</body>
+<script src="./script.js"></script>
+</html>
